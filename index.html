@@ -3,15 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Мій котик Міся</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Мій улюблений котик — Міся</h1>
+    <h1 id="title">Мій улюблений котик — Міся</h1>
 
-    <img src="photo/cat.jpg" alt="Фото котика Місі" width="400">
+    <img class="main-photo" src="cat.jpg" alt="Фото котика Місі" width="400">
 
     <h2>Коротко про Місю</h2>
 
-    <table border="1">
+    <table class="info-table" border="1">
         <tr>
             <th>Ім'я</th>
             <td>Міся</td>
@@ -40,31 +41,34 @@
 
     <h2>Біографія</h2>
 
-    <p>Міся з'явився у нашій сім'ї в 2018 році. Був дуже маленьким, але з перших днів встановив свої правила проживання з ним.</p>
+    <div id="biography">
+        <p>Міся з'явився у нашій сім'ї в 2018 році. Був дуже маленьким, але з перших днів встановив свої правила проживання з ним.</p>
 
-    <p>Міся любить:</p>
-    <ul>
-        <li>Грати</li>
-        <li>Спати</li>
-        <li>Сухий корм — багато</li>
-        <li>Спостерігати за голубами</li>
-        <li>Їсти домашні квіти, всі окрім орхідей</li>
-    </ul>
+        <p>Міся любить:</p>
+        <ul class="likes-list">
+            <li>Грати</li>
+            <li>Спати</li>
+            <li>Сухий корм — багато</li>
+            <li>Спостерігати за голубами</li>
+            <li>Їсти домашні квіти, всі окрім орхідей</li>
+        </ul>
 
-    <p>Не любить:</p>
-    <ol>
-        <li>Пилосос</li>
-        <li>Купання</li>
-        <li>Коли його будять</li>
-    </ol>
+        <p>Не любить:</p>
+        <ol class="dislikes-list">
+            <li>Пилосос</li>
+            <li>Купання</li>
+            <li>Коли його будять</li>
+        </ol>
+    </div>
 
     <h2>Навігація</h2>
-    <ul>
-        <li><a href="pages/gallery.html">Галерея фото</a></li>
-        <li><a href="pages/contact.html">Контакти</a></li>
+    <ul class="navigation">
+        <li><a href="gallery.html">Галерея фото</a></li>
+        <li><a href="contact.html">Контакти</a></li>
     </ul>
 
-    <hr>
-    <p><em>© 2026 Сайт про Місю</em></p>
+    <div id="footer">
+        <p>© 2026 Сайт про Місю</p>
+    </div>
 </body>
 </html>
