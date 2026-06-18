@@ -1,1 +1,180 @@
+/* Загальні стилі */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
 
+/* Заголовки */
+h1 {
+    color: #d35400;
+    text-align: center;
+}
+
+h2 {
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 5px;
+}
+
+/* Головне фото */
+.main-photo {
+    display: block;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 3px solid #e67e22;
+}
+
+/* Таблиця інформації */
+.info-table {
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.info-table th {
+    background-color: #e67e22;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    width: 30%;
+}
+
+.info-table td {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Списки */
+.likes-list {
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-left: 4px solid #27ae60;
+}
+
+.dislikes-list {
+    background-color: #fff;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border-left: 4px solid #e74c3c;
+}
+
+.likes-list li,
+.dislikes-list li {
+    margin: 5px 0;
+}
+
+/* Навігація */
+.navigation {
+    background-color: #e67e22;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.navigation li {
+    display: inline;
+    margin: 0 15px;
+    list-style: none;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    text-decoration: underline;
+}
+
+/* Посилання */
+a {
+    color: #d35400;
+}
+
+a:hover {
+    color: #e67e22;
+}
+
+/* Футер */
+#footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
+
+/* Біографія */
+#biography {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 10px 0;
+}
+
+/* Галерея */
+.gallery-photo {
+    border-radius: 10px;
+    border: 3px solid #e67e22;
+    margin: 10px;
+}
+
+.gallery-caption {
+    text-align: center;
+    font-style: italic;
+    color: #666;
+}
+
+/* Контакти таблиця */
+.contact-table {
+    width: 50%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.contact-table th {
+    background-color: #d35400;
+    color: white;
+    padding: 10px;
+    text-align: left;
+}
+
+.contact-table td {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+/* Кнопка назад */
+.back-link {
+    display: inline-block;
+    background-color: #e67e22;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.back-link:hover {
+    background-color: #d35400;
+    color: white;
+}
+
+/* Нижня навігація */
+#bottom-nav {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 5px;
+}
